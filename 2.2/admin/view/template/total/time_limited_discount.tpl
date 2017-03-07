@@ -58,10 +58,10 @@
 
           <!-- end day -->
           <div class="form-group">
-            <label class="col-sm-2 control-label" for="input-end-day"><?php echo $entry_start_day; ?></label>
+            <label class="col-sm-2 control-label" for="input-end-day"><?php echo $entry_end_day; ?></label>
             <div class="col-sm-3">
               <div class="input-group datetime">
-                <input type="text" name="time_limited_discount_end_day" value="<?php echo $time_limited_discount_end_day; ?>" placeholder="<?php echo $entry_start_day; ?>" data-date-format="YYYY-MM-DD HH:mm:ss" id="input-end-day" class="form-control" />
+                <input type="text" name="time_limited_discount_end_day" value="<?php echo $time_limited_discount_end_day; ?>" placeholder="<?php echo $entry_end_day; ?>" data-date-format="YYYY-MM-DD HH:mm:ss" id="input-end-day" class="form-control" />
                 <span class="input-group-btn">
                 <button class="btn btn-default" type="button">
                   <i class="fa fa-calendar"></i>
