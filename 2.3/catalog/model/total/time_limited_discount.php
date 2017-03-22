@@ -13,7 +13,7 @@ class ModelTotalTimeLimitedDiscount extends Model {
 
 		if(($startDay && $endDay) && $today > $startDay && $today < $endDay){
 			$total['totals'][] = array(
-				'code'       => 'sale',
+				'code'       => 'time_limited_discount',
 				'title'      => sprintf($this->language->get('text_time_limited_discount'), date('Y-m-d H:i', $startDay), date('Y-m-d H:i', $endDay)),
 				'value'      => $reduced,
 				'sort_order' => $this->config->get('time_limited_discount_sort_order')
